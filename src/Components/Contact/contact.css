@@ -1,0 +1,57 @@
+.hero-info li {
+    float: left;
+    border-right: 1px solid #eeeeee;
+    margin-bottom: 0;
+}
+.hero-info li {
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 10px;
+}
+
+.hero-wrapper {
+    position: relative;
+}
+    .hero-left {   
+        padding-top: 15%;
+    }
+.form-contact .form-group {
+    margin-bottom: 30px;
+}
+.form-contact .form-control {
+    border: 1px solid #f0e9ff;
+    border-radius: 5px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent;
+}
+
+.form-contact textarea {
+    border-radius: 12px;
+    height: 100% !important;
+}
+.contact-info__icon i, .contact-info__icon span {
+    color: #8f9195;
+    font-size: 27px;
+}
+.contact-info {
+    margin-bottom: 12px;
+    display: flex;
+}
+/* .contact-info {
+    align-items: center;
+} */
+.contact-info__icon {
+    margin-right: 15px;
+}
+.contact-info .media-body h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.contact-info .media-body h3 a {
+    color: #2f2d4e;
+    text-decoration: none;
+   
+}

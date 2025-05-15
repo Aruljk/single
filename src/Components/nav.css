@@ -1,0 +1,12 @@
+.nav-link:hover {
+    color: orange !important;
+  }
+
+  .bg-body-tertiary{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white !important;
+  }
+  .nav-lin{
+    font-size: 1.3rem;
+  }

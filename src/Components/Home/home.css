@@ -1,0 +1,224 @@
+.hero-title{
+    margin-bottom: 50px;
+}
+.hero-title{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 25px;
+    line-height: 0.929;
+}
+@media (min-width: 991px) {
+    .hero-title {
+        font-size: 50px;
+    }
+}
+@media (max-width: 768px) {
+  .responsive-mob{
+margin-bottom: 15px;
+    }
+}
+
+.hero-title h1{
+color: #2f2d4e;
+}
+.home-sec{
+    margin-top: 20px;
+}
+.hero-banner__video {
+    
+    margin-left: 15px;
+  
+    font-size: 14px;
+    font-weight: 600;
+    color: #2f2d4e;
+    text-decoration: none !important;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 9px 25px;
+    background-color:#b2b1c6 ;
+    display: inline-block;
+}
+.button {
+    display: inline-block;
+    background-color: #e22104;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 9px 25px;
+    text-transform: capitalize;
+   
+    text-decoration: none !important;
+}
+@media (min-width: 992px) {
+    .about-section {
+        margin: 130px 0;
+    }
+}
+@media (min-width: 1200px) {
+    .about-section {
+        padding-bottom: 70px;
+    }
+}
+
+.img-styleBox {
+    position: relative;
+}
+@media (max-width: 768px) {
+    .img-styleBox .styleBox-img2{
+        right: -9px !important;
+      }
+      #sec-intro{
+        margin-top: 75px;
+        margin-bottom: 0px;
+      }
+      .about-section{
+        margin-top: 20px;
+      }
+      .menu-content{
+        margin-top: 20px;
+      }
+      .card-sec{
+        margin-top: 20px;
+      }
+      .section-intro{
+        margin-top: 25px;
+      }
+      .testi-con-sec{
+        margin-bottom: 15px;
+      }
+  }
+  
+  @media (max-width: 991px) {
+    .section-intro{
+        margin-top: 25px;
+      }
+      .img-styleBox .styleBox-img2{
+        right: -15px !important;
+      }
+      .about-section{
+        margin-top: 25px;
+      }
+      .item-body h4{
+        font-size: 18px !important;
+      }
+      .blog-body h3{
+        font-size: 18px !important; 
+      }
+  }
+.img-styleBox .styleBox-img2 {
+    position: absolute;
+    bottom: -70px;
+    right: 70px;
+}
+.intro-title{
+display: inline-block;
+font-size: 24px;
+color: #e22104;
+padding-right: 115px;
+position: relative;
+margin-bottom: 15px;
+}
+.intro-title::after {
+    content: "";
+    display: block;
+    height: 1px;
+    min-width: 100px;
+    background-color: #3a414e;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+.card-sec{
+    background-color: #fff8f7;;
+}
+.rating-star {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .rating-star li {
+    display: inline-block;
+    margin-right: 2px;
+}
+.item-body h4{
+    font-size: 24px;
+    font-weight: 600;
+    color:rgb(100 91 91);
+}
+.item-body p{
+margin-bottom: 10px;
+}
+.price-tag {
+    font-family: "Open Sans", sans-serif;
+    color: #e22104;
+}
+.price-tag {
+font-size: 24px;
+font-weight: 600;
+}
+.item-body a{
+    text-decoration: none;
+}
+.item-body p{
+color:#888
+}
+@media (min-width: 600px) {
+    .food-card {
+        padding: 30px 40px 30px 40px;
+    }
+}
+.food-card {
+    background: #fff8f7;
+    padding: 20px 10px 20px 10px;
+    margin-bottom: 20px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    display: flex;
+    justify-content: space-around;
+}
+.section-intro{
+    margin-bottom: 75px;
+}
+@media (min-width: 992px) {
+    .food-menu {
+        margin: 130px 0;
+    }
+}
+.blog-body {
+    padding: 18px;
+}
+.blog-info li a {
+    color: #999999;
+    text-decoration: none;
+    display: flex;
+}
+.blog-info{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap:10px
+}
+.blog-body a{
+    font-family: "Josefin Sans", sans-serif;
+   
+    line-height: 1.2;
+   
+    text-decoration: none !important;
+}
+.blog-body p{
+    color: #888 !important;
+}
+.blog-body h3{
+    font-size: 25px ;
+    color: #3a414e;
+}
+.hero-info{
+    text-decoration: none;
+    list-style-type: none;
+}
